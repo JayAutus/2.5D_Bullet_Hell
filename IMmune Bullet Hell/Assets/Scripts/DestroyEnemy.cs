@@ -6,24 +6,23 @@ public class DestroyEnemy : MonoBehaviour
 {
     public int scoreValue = 5;
     public int attackDamage = 1;
-    GameObject PlayerObject;
-    EnemyHealth EplayerHealth;
-    BulletHealth BulletHealth;
-
-    void Awake()
-    {
-        PlayerObject = GameObject.FindGameObjectWithTag("Enemy");
-        EplayerHealth = PlayerObject.GetComponent<EnemyHealth>();
-        BulletHealth = PlayerObject.GetComponent<BulletHealth>();
-    }
- 
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject == PlayerObject)
+        // Try to find EnemyHealth on the object we hit
+        EnemyHealth enemyHealth = other.GetComponent<EnemyHealth>();
+        BulletHealth bulletHealth = other.GetComponent<BulletHealth>();
+
+        if (enemyHealth != null)
         {
-            EplayerHealth.TakeDamage(attackDamage);
+            enemyHealth.TakeDamage(attackDamage);
             ScoreManager.score += scoreValue;
+            Destroy(gameObject); // Destroy bullet
+        }
+
+        if (bulletHealth != null)
+        {
+            bulletHealth.TakeDamage(attackDamage);
             Destroy(gameObject);
         }
     }

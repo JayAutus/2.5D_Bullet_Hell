@@ -8,6 +8,8 @@ public class EnemyMovement : MonoBehaviour
     public float Speed;
     public int curWaypoint;
     public bool Patrol = true;
+
+    public float rotationSpeed;
     public Vector3 Target;
     public Vector3 MoveDirection;
     public Vector3 Velocity;
@@ -19,7 +21,7 @@ public class EnemyMovement : MonoBehaviour
         {
         Target = Waypoints[curWaypoint].position;
         MoveDirection = Target - transform.position;
-        Velocity = GetComponent<Rigidbody>().velocity;
+        Velocity = GetComponent<Rigidbody>().linearVelocity;
 
         if(MoveDirection.magnitude < 1)
 
@@ -42,9 +44,9 @@ public class EnemyMovement : MonoBehaviour
                 Velocity = Vector3.zero;
             }
         }
-        GetComponent<Rigidbody>().velocity = Velocity;
+        GetComponent<Rigidbody>().linearVelocity = Velocity;
         {
-            transform.Rotate (new Vector3 (0, 300, 0) * Time.deltaTime);
+            transform.Rotate (new Vector3 (0, rotationSpeed, 0) * Time.deltaTime);
         }
     }
 }

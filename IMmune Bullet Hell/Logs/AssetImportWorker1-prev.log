@@ -11,19 +11,19 @@ F:\apps and programs\Unity Editor\6000.0.43f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-E:/documents/hell/GameDev/IMmune Bullet Hell
+E:/documents/hell/GameDev/finalGameproj/2.5D_Bullet_Hell/IMmune Bullet Hell
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-56681
+65201
 -job-worker-count
 5
 -background-job-worker-count
 8
 -gc-helper-count
 1
-Successfully changed project path to: E:/documents/hell/GameDev/IMmune Bullet Hell
-E:/documents/hell/GameDev/IMmune Bullet Hell
+Successfully changed project path to: E:/documents/hell/GameDev/finalGameproj/2.5D_Bullet_Hell/IMmune Bullet Hell
+E:/documents/hell/GameDev/finalGameproj/2.5D_Bullet_Hell/IMmune Bullet Hell
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,12 +59,12 @@ E:/documents/hell/GameDev/IMmune Bullet Hell
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22212]  Target information:
+Player connection [38176]  Target information:
 
-Player connection [22212]  * "[IP] 192.168.68.101 [Port] 0 [Flags] 2 [Guid] 405228061 [EditorId] 405228061 [Version] 1048832 [Id] WindowsEditor(7,OPAL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [38176]  * "[IP] 192.168.1.122 [Port] 0 [Flags] 2 [Guid] 344899737 [EditorId] 344899737 [Version] 1048832 [Id] WindowsEditor(7,OPAL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [22212] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [22212] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [38176] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [38176] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -76,61 +76,61 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.56 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 5.07 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.43f1 (97272b72f107)
 [Subsystems] Discovering subsystems at path F:/apps and programs/Unity Editor/6000.0.43f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path E:/documents/hell/GameDev/IMmune Bullet Hell/Assets
+[Subsystems] Discovering subsystems at path E:/documents/hell/GameDev/finalGameproj/2.5D_Bullet_Hell/IMmune Bullet Hell/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce RTX 3060 (ID=0x2503)
     Vendor:   NVIDIA
     VRAM:     12115 MB
-    Driver:   32.0.15.6636
+    Driver:   32.0.15.7283
 Initialize mono
 Mono path[0] = 'F:/apps and programs/Unity Editor/6000.0.43f1/Editor/Data/Managed'
 Mono path[1] = 'F:/apps and programs/Unity Editor/6000.0.43f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'F:/apps and programs/Unity Editor/6000.0.43f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56388
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56264
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/apps and programs/Unity Editor/6000.0.43f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: F:/apps and programs/Unity Editor/6000.0.43f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003114 seconds.
-- Loaded All Assemblies, in  0.365 seconds
+Registered in 0.003079 seconds.
+- Loaded All Assemblies, in  0.406 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.288 seconds
-Domain Reload Profiling: 654ms
-	BeginReloadAssembly (144ms)
+- Finished resetting the current domain, in  0.353 seconds
+Domain Reload Profiling: 759ms
+	BeginReloadAssembly (168ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (128ms)
-		LoadAssemblies (144ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (154ms)
+		LoadAssemblies (165ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (125ms)
-			TypeCache.Refresh (124ms)
-				TypeCache.ScanAssembly (113ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (136ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (289ms)
+	FinalizeReload (353ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (257ms)
+		SetupLoadedEditorAssemblies (319ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
+			InitializePlatformSupportModulesInManaged (19ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (51ms)
-			ProcessInitializeOnLoadAttributes (133ms)
-			ProcessInitializeOnLoadMethodAttributes (53ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (176ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -140,153 +140,248 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.524 seconds
-Refreshing native plugins compatible for Editor in 2.88 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.690 seconds
+Refreshing native plugins compatible for Editor in 4.25 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.97 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 4.14 ms, found 2 plugins.
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.523 seconds
-Domain Reload Profiling: 1046ms
-	BeginReloadAssembly (169ms)
+- Finished resetting the current domain, in  0.725 seconds
+Domain Reload Profiling: 1414ms
+	BeginReloadAssembly (203ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (285ms)
-		LoadAssemblies (288ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (384ms)
+		LoadAssemblies (360ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (108ms)
-			TypeCache.Refresh (79ms)
-				TypeCache.ScanAssembly (66ms)
-			BuildScriptInfoCaches (24ms)
+		AnalyzeDomain (158ms)
+			TypeCache.Refresh (122ms)
+				TypeCache.ScanAssembly (107ms)
+			BuildScriptInfoCaches (30ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (524ms)
+	FinalizeReload (726ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (436ms)
+		SetupLoadedEditorAssemblies (601ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
+			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (70ms)
-			ProcessInitializeOnLoadAttributes (229ms)
-			ProcessInitializeOnLoadMethodAttributes (129ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (339ms)
+			ProcessInitializeOnLoadMethodAttributes (165ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 3.77 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 5.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2762 unused Assets / (0.5 MB). Loaded Objects now: 3228.
-Memory consumption went from 76.8 MB to 76.2 MB.
-Total: 8.640400 ms (FindLiveObjects: 0.242700 ms CreateObjectMapping: 0.261100 ms MarkObjects: 7.625700 ms  DeleteObjects: 0.510100 ms)
+Unloading 3176 unused Assets / (368.2 KB). Loaded Objects now: 3647.
+Memory consumption went from 80.8 MB to 80.4 MB.
+Total: 21.136700 ms (FindLiveObjects: 0.546700 ms CreateObjectMapping: 0.252200 ms MarkObjects: 19.387200 ms  DeleteObjects: 0.949500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 382630.539131 seconds.
+  path: Assets/Materials/LowPoly-Spaceships-By-Majadroid/obj-files/obj-components/material-03/m3-part01.obj
+  artifactKey: Guid(e307cb93391490247a714a307d3cd441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/LowPoly-Spaceships-By-Majadroid/obj-files/obj-components/material-03/m3-part01.obj using Guid(e307cb93391490247a714a307d3cd441) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44ce54778e076bf513ea0ac225b896fd') in 0.2371018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Materials/LowPoly-Spaceships-By-Majadroid/obj-files/obj-ships/material-04/m4-ship1.obj
+  artifactKey: Guid(eb7ca62dff5b373459b93f90012a67e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/LowPoly-Spaceships-By-Majadroid/obj-files/obj-ships/material-04/m4-ship1.obj using Guid(eb7ca62dff5b373459b93f90012a67e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c211d1d94e5bc45cc9d5d9907fdcbf6') in 0.0254581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Materials/tile_nebula_green_dff.mat
+  artifactKey: Guid(f977fda9fa26c794082be495a645b6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/tile_nebula_green_dff.mat using Guid(f977fda9fa26c794082be495a645b6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d7c5f26035e660d0b695c1d94b22e0f') in 0.0134087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Materials/LowPoly-Spaceships-By-Majadroid/obj-files/obj-components/material-04/m4-part10.obj
+  artifactKey: Guid(e96fde4b5f4e25442ab5677e64bf2650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/LowPoly-Spaceships-By-Majadroid/obj-files/obj-components/material-04/m4-part10.obj using Guid(e96fde4b5f4e25442ab5677e64bf2650) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a44a1b91c44e7da609076a05ba286c6d') in 0.0209411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Materials/LowPoly-Spaceships-By-Majadroid/obj-files/obj-components/material-02/m2-part04.obj
+  artifactKey: Guid(13e3205fd6aa5584aaf7ddc964151129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/LowPoly-Spaceships-By-Majadroid/obj-files/obj-components/material-02/m2-part04.obj using Guid(13e3205fd6aa5584aaf7ddc964151129) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e353cc37348ce37a9e26431a5e727d02') in 0.0334435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Materials/LowPoly-Spaceships-By-Majadroid/obj-files/obj-accessories/bullet.obj
+  artifactKey: Guid(6bb4380d405149a46a65a81698d93630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/LowPoly-Spaceships-By-Majadroid/obj-files/obj-accessories/bullet.obj using Guid(6bb4380d405149a46a65a81698d93630) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5568e41ace50798e0e5d2cd2f8f3ee4f') in 0.0223315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Materials/LowPoly-Spaceships-By-Majadroid/fbx-files/LowPoly Spaceships ReadyToFly.fbx
+  artifactKey: Guid(20f71fb36fb51b445b32f2e081ffe442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/LowPoly-Spaceships-By-Majadroid/fbx-files/LowPoly Spaceships ReadyToFly.fbx using Guid(20f71fb36fb51b445b32f2e081ffe442) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53d7116c3fe9f967e5c47f1a960afac0') in 0.1251396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 82
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Materials/Player Bullet.mat
+  artifactKey: Guid(54ff1fd0d7fda6141a8e6fc891c8a628) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Player Bullet.mat using Guid(54ff1fd0d7fda6141a8e6fc891c8a628) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fac869f05a916fd9f3e256b83fbcd5ee') in 0.0146629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Materials/LowPoly-Spaceships-By-Majadroid/obj-files/obj-ships/material-02/m2-ship1.obj
+  artifactKey: Guid(091782781270d824da1ffa202ec99399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/LowPoly-Spaceships-By-Majadroid/obj-files/obj-ships/material-02/m2-ship1.obj using Guid(091782781270d824da1ffa202ec99399) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eeb22c1883c7a18f3eeea28d1f2b5d6f') in 0.0208028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Materials/LowPoly-Spaceships-By-Majadroid/fbx-files/LowPoly Spaceships Components.fbx
+  artifactKey: Guid(56e60d79e28619a43ac162733a92d3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/LowPoly-Spaceships-By-Majadroid/fbx-files/LowPoly Spaceships Components.fbx using Guid(56e60d79e28619a43ac162733a92d3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0842fcad54e53ff9062bde15492addb8') in 0.2639099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 232
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.252056 seconds.
+  path: Assets/Materials/LowPoly-Spaceships-By-Majadroid/obj-files/obj-accessories/healthbox.obj
+  artifactKey: Guid(a78d097afb461c848af8d3aa3a158e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/LowPoly-Spaceships-By-Majadroid/obj-files/obj-accessories/healthbox.obj using Guid(a78d097afb461c848af8d3aa3a158e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bfce656863e4f1253ea399f7867d5e21') in 0.0216587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Materials/LowPoly-Spaceships-By-Majadroid/obj-files/obj-components/material-02/m2-part07.obj
+  artifactKey: Guid(e69aa450a143f754fa94da053b807212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/LowPoly-Spaceships-By-Majadroid/obj-files/obj-components/material-02/m2-part07.obj using Guid(e69aa450a143f754fa94da053b807212) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2460874c48dad60b00208c5981955e0c') in 0.0191938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.363164 seconds.
+  path: Assets/Materials/LowPoly-Spaceships-By-Majadroid/obj-files/obj-accessories/laser-red.obj
+  artifactKey: Guid(a48c8d5ba9803224282fde441ba291bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/LowPoly-Spaceships-By-Majadroid/obj-files/obj-accessories/laser-red.obj using Guid(a48c8d5ba9803224282fde441ba291bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a520ca1fa8b1d6a78de86393d7457e9') in 0.0208442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Materials/LowPoly-Spaceships-By-Majadroid/obj-files/obj-accessories/laser-green.obj
+  artifactKey: Guid(4fd43c862541f59468e153db0e5ea160) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/LowPoly-Spaceships-By-Majadroid/obj-files/obj-accessories/laser-green.obj using Guid(4fd43c862541f59468e153db0e5ea160) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb28e71d758f250cbdfbd873b1457257') in 0.0192925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.513 seconds
-Refreshing native plugins compatible for Editor in 3.92 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.544 seconds
+Refreshing native plugins compatible for Editor in 3.28 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.775 seconds
-Domain Reload Profiling: 1288ms
+- Finished resetting the current domain, in  0.656 seconds
+Domain Reload Profiling: 1201ms
 	BeginReloadAssembly (199ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (249ms)
-		LoadAssemblies (285ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (87ms)
-			TypeCache.Refresh (4ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (79ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (775ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (606ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (110ms)
-			ProcessInitializeOnLoadAttributes (315ms)
-			ProcessInitializeOnLoadMethodAttributes (167ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Refreshing native plugins compatible for Editor in 4.16 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2760 unused Assets / (0.5 MB). Loaded Objects now: 3228.
-Memory consumption went from 75.7 MB to 75.2 MB.
-Total: 9.999300 ms (FindLiveObjects: 0.279100 ms CreateObjectMapping: 0.130900 ms MarkObjects: 9.051700 ms  DeleteObjects: 0.536600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.516 seconds
-Refreshing native plugins compatible for Editor in 4.03 ms, found 2 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.702 seconds
-Domain Reload Profiling: 1217ms
-	BeginReloadAssembly (196ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (42ms)
-	RebuildCommonClasses (37ms)
+	RebuildCommonClasses (33ms)
 	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (245ms)
-		LoadAssemblies (280ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (275ms)
+		LoadAssemblies (307ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (83ms)
+		AnalyzeDomain (84ms)
 			TypeCache.Refresh (5ms)
 				TypeCache.ScanAssembly (0ms)
 			BuildScriptInfoCaches (75ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (702ms)
+	FinalizeReload (656ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (594ms)
+		SetupLoadedEditorAssemblies (539ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (94ms)
-			ProcessInitializeOnLoadAttributes (297ms)
-			ProcessInitializeOnLoadMethodAttributes (194ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (275ms)
+			ProcessInitializeOnLoadMethodAttributes (178ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 4.36 ms, found 2 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 7.75 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 2760 unused Assets / (416.2 KB). Loaded Objects now: 3228.
-Memory consumption went from 75.7 MB to 75.3 MB.
-Total: 10.137100 ms (FindLiveObjects: 0.253500 ms CreateObjectMapping: 0.244100 ms MarkObjects: 8.894500 ms  DeleteObjects: 0.744100 ms)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3175 unused Assets / (1.3 MB). Loaded Objects now: 3694.
+Memory consumption went from 85.1 MB to 83.8 MB.
+Total: 24.554200 ms (FindLiveObjects: 1.296000 ms CreateObjectMapping: 0.728400 ms MarkObjects: 18.726100 ms  DeleteObjects: 3.802500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 242.070058 seconds.
+  path: Assets/Materials/download.png
+  artifactKey: Guid(8ca01393b6377a34c91582acebd7d12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/download.png using Guid(8ca01393b6377a34c91582acebd7d12c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '177cade75d0353909e5ffc9f8b12acc1') in 0.0938058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Materials/Enemy Colored Shots.mat
+  artifactKey: Guid(0960c708cdf232c458e3cdcef50ffb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Enemy Colored Shots.mat using Guid(0960c708cdf232c458e3cdcef50ffb03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72ecf9ff5a255afba9743907281abe33') in 0.0403412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Materials/Enemy Bacteria.mat
+  artifactKey: Guid(1fc7460564e41e445969e4994e5edd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Enemy Bacteria.mat using Guid(1fc7460564e41e445969e4994e5edd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32373900390bad8e5b58604e7faf5174') in 0.0135471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Materials/tile_nebula_green_dff.tif
+  artifactKey: Guid(afa141dc9701c9142a3e41b386d12fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/tile_nebula_green_dff.tif using Guid(afa141dc9701c9142a3e41b386d12fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '936bb4c2071b73c1239369a98e83a0e3') in 0.0138542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

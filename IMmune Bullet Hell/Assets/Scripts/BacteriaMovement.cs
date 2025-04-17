@@ -19,7 +19,7 @@ public class BacteriaMovement : MonoBehaviour
         {
         Target = Waypoints[curWaypoint].position;
         MoveDirection = Target - transform.position;
-        Velocity = GetComponent<Rigidbody>().velocity;
+        Velocity = GetComponent<Rigidbody>().linearVelocity;
 
         if(MoveDirection.magnitude < 1)
 
@@ -42,7 +42,7 @@ public class BacteriaMovement : MonoBehaviour
                 Velocity = Vector3.zero;
             }
         }
-        GetComponent<Rigidbody>().velocity = Velocity;
+        GetComponent<Rigidbody>().linearVelocity = Velocity;
         {
             transform.Rotate (new Vector3 (0, 0, 0) * Time.deltaTime);
         }

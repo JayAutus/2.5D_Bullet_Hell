@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Immune shooter 2.unity
+- path: Assets/mainGameplay.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

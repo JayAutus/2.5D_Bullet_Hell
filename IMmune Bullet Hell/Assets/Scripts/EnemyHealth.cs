@@ -8,7 +8,7 @@ public class EnemyHealth : MonoBehaviour
 
     public int startingHealth = 50;
     public int currentHealth;
-    public Slider healthSlider;
+    //public Slider healthSlider;
 
     void Awake()
     {
@@ -18,7 +18,7 @@ public class EnemyHealth : MonoBehaviour
     public void TakeDamage(int amount)
     {
         currentHealth -= amount;
-        healthSlider.value = currentHealth;
+        //healthSlider.value = currentHealth;
         if (currentHealth <= 0)
         {
             Destroy(gameObject);
