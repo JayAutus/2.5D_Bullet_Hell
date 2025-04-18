@@ -76,6 +76,7 @@
     <Compile Include="Assets\Scripts\PlayerHealthTest.cs" />
     <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\WaypointManager.cs" />
+    <Compile Include="Assets\AutoDestroy.cs" />
     <Compile Include="Assets\Scripts\DestroyEnemy.cs" />
     <Compile Include="Assets\Scripts\BulletPoolTest.cs" />
     <Compile Include="Assets\Scripts\BacteriaMovement.cs" />

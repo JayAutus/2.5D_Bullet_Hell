@@ -3,26 +3,36 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class EnemyHealth : MonoBehaviour
 {
+    public int maxHealth = 3;
+    private int currentHealth;
 
-    public int startingHealth = 50;
-    public int currentHealth;
-    //public Slider healthSlider;
+    public GameObject explosionPrefab; // Drag this in inspector
 
-    void Awake()
+    void Start()
     {
-        currentHealth = startingHealth;
+        currentHealth = maxHealth;
     }
 
     public void TakeDamage(int amount)
     {
         currentHealth -= amount;
-        //healthSlider.value = currentHealth;
+        
         if (currentHealth <= 0)
         {
-            Destroy(gameObject);
+            Die();
         }
     }
 
+    void Die()
+    {
+        if (explosionPrefab != null)
+        {
+            Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+        }
+
+        Destroy(gameObject);
+    }
 }

@@ -4,50 +4,48 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-    public Transform[] Waypoints;
-    public float Speed;
-    public int curWaypoint;
-    public bool Patrol = true;
+    public Transform[] waypoints;        // Set by spawner or inspector
+    public float speed = 3f;
+    public float reachThreshold = 0.2f;
 
-    public float rotationSpeed;
-    public Vector3 Target;
-    public Vector3 MoveDirection;
-    public Vector3 Velocity;
+    [Header("Rotation Settings")]
+    public float rotationSpeed = 0f;     // Degrees per second
+    public Vector3 rotationAxis = Vector3.up; // Axis to rotate around (Y by default)
 
-    void Update ()
+    private int currentIndex = 0;
 
-{
-        if(curWaypoint < Waypoints.Length)
+    void Update()
+    {
+        if (waypoints == null || waypoints.Length == 0) return;
+
+        MoveToNextWaypoint();
+        RotateEnemy();
+    }
+
+    void MoveToNextWaypoint()
+    {
+        Transform target = waypoints[currentIndex];
+        Vector3 direction = (target.position - transform.position).normalized;
+
+        transform.Translate(direction * speed * Time.deltaTime, Space.World);
+
+        if (Vector3.Distance(transform.position, target.position) < reachThreshold)
         {
-        Target = Waypoints[curWaypoint].position;
-        MoveDirection = Target - transform.position;
-        Velocity = GetComponent<Rigidbody>().linearVelocity;
-
-        if(MoveDirection.magnitude < 1)
-
-        {
-                curWaypoint++;
-        }
-            else
-            {
-                Velocity = MoveDirection.normalized * Speed;
-            }
-        }
-        else
-        {
-            if(Patrol)
-            {
-                curWaypoint=0;
-            }
-            else
-            {
-                Velocity = Vector3.zero;
-            }
-        }
-        GetComponent<Rigidbody>().linearVelocity = Velocity;
-        {
-            transform.Rotate (new Vector3 (0, rotationSpeed, 0) * Time.deltaTime);
+            currentIndex = (currentIndex + 1) % waypoints.Length; // loop
         }
     }
-}
 
+    void RotateEnemy()
+    {
+        if (rotationSpeed != 0f)
+        {
+            transform.Rotate(rotationAxis, rotationSpeed * Time.deltaTime);
+        }
+    }
+
+    public void SetWaypoints(Transform[] path)
+    {
+        waypoints = path;
+        currentIndex = 0;
+    }
+}
