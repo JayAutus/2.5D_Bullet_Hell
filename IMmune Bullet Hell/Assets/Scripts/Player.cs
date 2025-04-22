@@ -19,6 +19,12 @@ public class Player : MonoBehaviour
     public GameObject Shot; 
     public Transform BulletSpawn;
 
+    public Transform MultiShot;
+
+  
+
+    public Transform Shield;
+
     public InputAction fire;
 
     public float fireRate;
@@ -36,6 +42,10 @@ public class Player : MonoBehaviour
         {
             nextFire = Time.time + fireRate;
             Instantiate(Shot, BulletSpawn.position, BulletSpawn.rotation); 
+            foreach (Transform shotPoint in MultiShot)
+            {
+                Instantiate(Shot, shotPoint.position, shotPoint.rotation);
+            }
         }
 
     }
