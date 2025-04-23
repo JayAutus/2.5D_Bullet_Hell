@@ -4,7 +4,7 @@ public class PowerUpSpawner : MonoBehaviour
 {
     public GameObject powerUpPrefab;
     public float spawnInterval = 10f;
-    public Vector3 spawnArea = new Vector3(10, 0, 10); // X and Z area
+    public Vector3 spawnArea = new Vector3(8f, -0.67f, 6.71f); // X and Z area
 
     void Start()
     {
