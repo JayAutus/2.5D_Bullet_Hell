@@ -20,7 +20,8 @@ public class PlayerHealthTest : MonoBehaviour {
         healthSlider.value = currentHealth;
         if(currentHealth <= 0)
         {
-            Destroy(gameObject);
+            GameManager.instance.GameOver();
+            gameObject.SetActive(false);
         }
     }
 
