@@ -1,5 +1,7 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 [System.Serializable]
 public class EnemyWaveSettings
@@ -20,19 +22,32 @@ public class EnemySpawner : MonoBehaviour
 {
     public EnemyWaveSettings waveSettings;
     public Transform[] spawnGroups;
+    private int currentWave = 1;
+    public TextMeshProUGUI waveText;    // Drag your WaveText here
 
-    private int waveNumber = 1;
+    public int waveNumber = 1;
 
     void Start()
     {
         StartCoroutine(SpawnWaves());
+        UpdateWaveText();
+    }
+    public void SetWave(int waveNumber)
+    {
+        currentWave = waveNumber;
+        UpdateWaveText();
     }
 
+    void UpdateWaveText()
+    {
+        waveText.text = "Wave: " + currentWave;
+    }
     IEnumerator SpawnWaves()
     {
         while (true) // Endless loop
         {
             Debug.Log($"Spawning Wave {waveNumber}");
+            SetWave(waveNumber);
 
             bool isBossWave = (waveNumber % waveSettings.bossWaveInterval == 0);
 

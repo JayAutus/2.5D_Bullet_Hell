@@ -9,6 +9,8 @@ public class EnemyHealth : MonoBehaviour
     public int maxHealth = 3;
     private int currentHealth;
 
+    private ScoreManager scoreManager;
+
     public GameObject explosionPrefab; // Drag this in inspector
 
     void Start()
@@ -22,6 +24,8 @@ public class EnemyHealth : MonoBehaviour
         
         if (currentHealth <= 0)
         {
+            FindObjectOfType<ScoreManager>().AddScore(100);
+            
             Die();
         }
     }

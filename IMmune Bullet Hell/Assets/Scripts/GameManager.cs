@@ -8,8 +8,15 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
-    public GameState currentState = GameState.Playing;
+    private PlayerHealthTest playerHealth;
 
+    public GameState currentState = GameState.Playing;
+    
+    void Start()
+    {
+        // Find the player in the scene (one way)
+        playerHealth = FindObjectOfType<PlayerHealthTest>();
+    }
     private void Awake()
     {
         if (instance == null) instance = this;
@@ -18,6 +25,10 @@ public class GameManager : MonoBehaviour
 
     void Update()
     {
+        if (playerHealth.currentHealth <= 0){
+            currentState=GameState.GameOver;
+        }
+        
         if (currentState == GameState.GameOver && Input.GetKeyDown(KeyCode.R))
         {
             RestartGame();
