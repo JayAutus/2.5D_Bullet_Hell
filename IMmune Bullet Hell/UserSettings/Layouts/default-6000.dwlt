@@ -122,8 +122,8 @@ MonoBehaviour:
     y: 0
     width: 346.5
     height: 774
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 76}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -275,8 +275,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 241
-    y: 594
+    x: 1
+    y: 540
     width: 778.5
     height: 232
   m_SerializedDataModeController:
@@ -320,7 +320,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 12}
     m_SelectedIDs: 167a0000
     m_LastClickedID: 31254
-    m_ExpandedIDs: 00000000167a000000ca9a3bffffff7f
+    m_ExpandedIDs: 000000001c7a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -349,7 +349,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000167a0000
+    m_ExpandedIDs: 000000001c7a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -429,8 +429,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1021.5
-    y: 78
+    x: 1022.5
+    y: 24
     width: 345.5
     height: 748
   m_SerializedDataModeController:
@@ -480,7 +480,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 78
+    y: 24
     width: 240
     height: 748
   m_SerializedDataModeController:
@@ -497,8 +497,8 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: d2770000
-      m_LastClickedID: 30674
+      m_SelectedIDs: 
+      m_LastClickedID: 0
       m_ExpandedIDs: b0dcffff1efbffffae770000c6770000e67700000e78000032780000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -546,8 +546,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 241
-    y: 78
+    x: 1
+    y: 24
     width: 778.5
     height: 490
   m_SerializedDataModeController:
@@ -1112,7 +1112,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.0081469985, y: -0.28425527, z: 0.0020735504, w: 0.9590278}
     speed: 2
-    m_Value: {x: 0.0081445305, y: -0.28416917, z: 0.0020729222, w: 0.9587373}
+    m_Value: {x: -0.0081469985, y: 0.28425527, z: -0.0020735504, w: -0.9590278}
   m_Size:
     m_Target: 6.363084
     speed: 2
