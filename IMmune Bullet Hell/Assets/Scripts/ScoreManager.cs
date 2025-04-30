@@ -17,13 +17,23 @@ public class ScoreManager : MonoBehaviour
 
     void Start()
     {
+        // Reset the score when game starts
+        currentScore = 0;
+        score = 0;
         UpdateScoreText();
     }
 
     
-    public void AddScore(int score)
+    public int GetCurrentScore()
     {
-        currentScore += score;
+        return currentScore;
+    }
+
+    
+    public void AddScore(int points)
+    {
+        currentScore += points;
+        score = currentScore; // Keep static variable updated
         UpdateScoreText();
     }
 
@@ -31,6 +41,7 @@ public class ScoreManager : MonoBehaviour
 
     void UpdateScoreText()
     {
-        scoreText.text = "Score: " + currentScore;
+        if (scoreText != null)
+            scoreText.text = "Score: " + currentScore;
     }
 }

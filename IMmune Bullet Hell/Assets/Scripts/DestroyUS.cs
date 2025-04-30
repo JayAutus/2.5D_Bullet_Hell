@@ -7,19 +7,37 @@ public class DestroyUS : MonoBehaviour{
     GameObject PlayerObject;
     PlayerHealthTest playerHealth;
 
-    void Awake()
+    void Start()
     {
-        PlayerObject = GameObject.FindGameObjectWithTag ("Player");
-        playerHealth = PlayerObject.GetComponent <PlayerHealthTest> ();
+        FindPlayer();
     }
-
+    
+    void FindPlayer()
+    {
+        PlayerObject = GameObject.FindGameObjectWithTag("Player");
+        if (PlayerObject != null)
+        {
+            playerHealth = PlayerObject.GetComponent<PlayerHealthTest>();
+        }
+    }
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.CompareTag("Player"))
         {
-            playerHealth.TakeDamage (attackDamage);
-            Destroy (gameObject);
+            // In case we didn't find the player on Start() or it changed
+            if (playerHealth == null)
+            {
+                FindPlayer();
+            }
+            
+            // Only damage if we have a valid reference
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(attackDamage);
+            }
+            
+            Destroy(gameObject);
         }
     }
 }

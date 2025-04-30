@@ -37,3 +37,4 @@ Temp
 *.csproj
 *.pidb
 *.sln
+.vs/

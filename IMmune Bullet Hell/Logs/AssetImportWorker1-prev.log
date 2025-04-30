@@ -1,0 +1,20 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.47f1 (2ad1ed33fd3b) revision 2806253'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 31831 MB
+windows exception 0xc0000005 at address 0x00007FFC628CA3F7
+Obtained 14 stack frames
+RtlLookupFunctionEntry returned NULL function. Aborting stack walk.
+0x00007ffc6149c2dd (Unity) StackWalker::ShowCallstack
+0x00007ffc614ac299 (Unity) PlatformStacktrace::GetStacktrace
+0x00007ffc626e39ae (Unity) Stacktrace::GetStacktrace
+0x00007ffc61ad6efb (Unity) winutils::PrintStackTrace
+0x00007ffc61ad5daa (Unity) winutils::CrashHandler::DefaultCrashHandler
+0x00007ffd493d9f73 (KERNELBASE) UnhandledExceptionFilter
+0x00007ffd4bd453fa (ntdll) strncpy
+0x00007ffd4bcfe963 (ntdll) _C_specific_handler
+0x00007ffd4bd406ff (ntdll) _chkstk
+0x00007ffd4bc1a328 (ntdll) RtlWow64GetCurrentCpuArea
+0x00007ffd4bd4003e (ntdll) KiUserExceptionDispatcher
+0x00007ffc628ca3f7 (Unity) WorkerLicense::HasEntitlement
+<Missing stacktrace information>
+
