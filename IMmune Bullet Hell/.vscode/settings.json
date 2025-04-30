@@ -56,5 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "IMmune Bullet Hell.sln"
+    "dotnet.defaultSolution": "IMmune Bullet Hell.sln",
+    "dotnet.preferCSharpExtension": true
 }

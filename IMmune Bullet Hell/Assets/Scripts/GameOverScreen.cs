@@ -10,11 +10,33 @@ public class GameOverScreen : MonoBehaviour
     public Button mainMenuButton;
 
     private ScoreManager scoreManager;
+    private GameObject canvasRoot; // Reference to the parent Canvas
 
     void Awake()
     {
-        // Start deactivated
-        gameObject.SetActive(false);
+        // Find the Canvas root (parent or grandparent that is a Canvas)
+        Transform current = transform;
+        while (current != null)
+        {
+            canvasRoot = current.gameObject;
+            if (current.GetComponent<Canvas>() != null)
+                break;
+            current = current.parent;
+        }
+
+        if (canvasRoot == null)
+        {
+            Debug.LogError("GameOverScreen: Couldn't find parent Canvas!");
+            canvasRoot = transform.gameObject; // Fallback to self
+        }
+
+        Debug.Log("GameOverScreen initialized. Canvas root: " + canvasRoot.name);
+        
+        // Start deactivated, deactivate the Canvas not this object
+        if (canvasRoot != null && canvasRoot != gameObject)
+            canvasRoot.SetActive(false);
+        else
+            gameObject.SetActive(false);
     }
     
     void Start()
@@ -22,19 +44,24 @@ public class GameOverScreen : MonoBehaviour
         // Set up button event listeners
         if (restartButton != null)
             restartButton.onClick.AddListener(RestartGame);
+        else
+            Debug.LogError("GameOverScreen: Restart button not assigned!");
         
         if (mainMenuButton != null) 
             mainMenuButton.onClick.AddListener(GoToMainMenu);
+        else
+            Debug.LogError("GameOverScreen: Main Menu button not assigned!");
         
         // Find the score manager
         scoreManager = FindObjectOfType<ScoreManager>();
-        
-        // Make sure we're not active at start
-        gameObject.SetActive(false);
+        if (scoreManager == null)
+            Debug.LogWarning("GameOverScreen: ScoreManager not found!");
     }
 
     public void Show()
     {
+        Debug.Log("GameOverScreen.Show() called");
+        
         // Make sure we have the latest reference to ScoreManager
         if (scoreManager == null)
             scoreManager = FindObjectOfType<ScoreManager>();
@@ -44,17 +71,30 @@ public class GameOverScreen : MonoBehaviour
         {
             int finalScore = scoreManager.GetCurrentScore();
             scoreText.text = "Final Score: " + finalScore;
+            Debug.Log("Final score set: " + finalScore);
+        }
+        else
+        {
+            Debug.LogWarning("Cannot set score - missing references. scoreText: " + 
+                (scoreText != null) + ", scoreManager: " + (scoreManager != null));
         }
         
-        // Log that the screen is showing
-        Debug.Log("Game Over Screen Activated");
-        
-        // Activate the game over screen
-        gameObject.SetActive(true);
+        // Activate the game over screen - use the Canvas root
+        if (canvasRoot != null)
+        {
+            canvasRoot.SetActive(true);
+            Debug.Log("Activated Canvas: " + canvasRoot.name);
+        }
+        else
+        {
+            gameObject.SetActive(true);
+            Debug.Log("Activated GameOverScreen object directly");
+        }
     }
 
     void RestartGame()
     {
+        Debug.Log("RestartGame called");
         // Restart current scene
         Time.timeScale = 1f; // Ensure normal time
         UnityEngine.SceneManagement.SceneManager.LoadScene(
@@ -63,6 +103,7 @@ public class GameOverScreen : MonoBehaviour
     
     void GoToMainMenu()
     {
+        Debug.Log("GoToMainMenu called");
         // Load the main menu scene (assuming it's scene 0)
         Time.timeScale = 1f; // Ensure normal time
         UnityEngine.SceneManagement.SceneManager.LoadScene(0);

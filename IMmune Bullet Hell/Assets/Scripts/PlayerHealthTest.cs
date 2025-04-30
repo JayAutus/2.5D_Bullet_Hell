@@ -15,11 +15,14 @@ public class PlayerHealthTest : MonoBehaviour {
     
     private bool isDead = false;
 
-    public GameObject gameOverPanel;
+    // This reference shouldn't be needed since GameManager handles the GameOverScreen
+    // public GameObject gameOverPanel;
+    private GameOverScreen gameOverScreen;
 
     void Awake ()
     {
         currentHealth = startingHealth;
+        gameOverScreen = FindObjectOfType<GameOverScreen>();
     }
 
     public void TakeDamage (int amount)
@@ -58,6 +61,17 @@ public class PlayerHealthTest : MonoBehaviour {
         else
         {
             Debug.LogWarning("GameManager.instance is null! Make sure GameManager exists in the scene.");
+            
+            // Fallback if GameManager isn't available
+            if (gameOverScreen != null)
+            {
+                gameOverScreen.Show();
+                Debug.Log("Showing game over screen directly from player");
+            }
+            else
+            {
+                Debug.LogError("Both GameManager and GameOverScreen are missing!");
+            }
         }
 
         // Make player invisible instead of destroying immediately
@@ -68,17 +82,6 @@ public class PlayerHealthTest : MonoBehaviour {
         foreach (Collider c in colliders)
         {
             c.enabled = false;
-        }
-        
-        // Show game over panel directly as a fallback
-        if (gameOverPanel != null)
-        {
-            gameOverPanel.SetActive(true);
-            Debug.Log("Activated game over panel directly from player");
-        }
-        else
-        {
-            Debug.LogWarning("Game over panel reference is missing on player!");
         }
         
         // Destroy after a delay

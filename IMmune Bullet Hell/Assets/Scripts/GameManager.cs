@@ -26,19 +26,30 @@ public class GameManager : MonoBehaviour
     {
         // Find the player in the scene
         playerHealth = FindObjectOfType<PlayerHealthTest>();
+        if (playerHealth == null)
+            Debug.LogError("No PlayerHealthTest found in scene!");
         
         // Find the game over screen
         gameOverScreen = FindObjectOfType<GameOverScreen>();
+        if (gameOverScreen == null)
+            Debug.LogError("No GameOverScreen found in scene! Game over functionality will not work properly.");
+        else
+            Debug.Log("GameManager found GameOverScreen: " + gameOverScreen.name);
         
         // Make sure pause menu is hidden at start
         if (pauseMenuUI != null)
             pauseMenuUI.SetActive(false);
             
         // Make sure game over screen is hidden at start
-        if (gameOverScreen != null)
+        if (gameOverScreen != null) 
+        {
             gameOverScreen.gameObject.SetActive(false);
+            Debug.Log("GameOverScreen hidden at start");
+        }
             
         Time.timeScale = 1f; // Ensure normal time
+        
+        Debug.Log("GameManager initialized. State: " + currentState);
     }
 
     void Update()
@@ -58,6 +69,13 @@ public class GameManager : MonoBehaviour
                 PauseGame();
         }
         
+        // Force game over with F12 key (for testing)
+        if (Input.GetKeyDown(KeyCode.F12))
+        {
+            Debug.Log("F12 pressed - forcing game over");
+            GameOver();
+        }
+        
         // Restart with R key during game over
         if (currentState == GameState.GameOver && Input.GetKeyDown(KeyCode.R))
         {
@@ -67,17 +85,46 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
-        if (currentState != GameState.Playing) return;
+        if (currentState != GameState.Playing) 
+        {
+            Debug.Log("GameOver called but state is already: " + currentState);
+            return;
+        }
 
         currentState = GameState.GameOver;
         Debug.Log("Game Over!");
         
-        // Show game over screen
-        if (gameOverScreen != null)
-            gameOverScreen.Show();
-            
+        // Use GameOverScreenBuilder if it exists
+        if (GameOverScreenBuilder.Instance != null)
+        {
+            GameOverScreenBuilder.Instance.ShowGameOver();
+            Debug.Log("GameOver shown via GameOverScreenBuilder");
+        }
+        else
+        {
+            Debug.LogError("GameOverScreenBuilder not found! Creating one...");
+            GameObject builder = new GameObject("GameOverScreenBuilder");
+            var screenBuilder = builder.AddComponent<GameOverScreenBuilder>();
+            // Give it time to initialize
+            StartCoroutine(ShowGameOverAfterDelay(0.2f));
+        }
+        
         // Optional: Slow down time
         Time.timeScale = 0.5f;
+    }
+    
+    private IEnumerator ShowGameOverAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        if (GameOverScreenBuilder.Instance != null)
+        {
+            GameOverScreenBuilder.Instance.ShowGameOver();
+            Debug.Log("GameOver shown after delay");
+        }
+        else
+        {
+            Debug.LogError("Failed to show GameOver screen even after delay!");
+        }
     }
 
     public void Victory()
