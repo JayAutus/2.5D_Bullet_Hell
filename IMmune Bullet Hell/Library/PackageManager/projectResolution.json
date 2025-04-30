@@ -1,5 +1,14 @@
 {
   "context": {
+<<<<<<< HEAD
+    "projectPath": "C:/Benchmark_Testing/2.5D_Bullet_Hell/IMmune Bullet Hell/Packages",
+    "unityVersion": "6000.0.47f1"
+  },
+  "inputs": [
+    "C:\\Benchmark_Testing\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Packages\\manifest.json",
+    "C:\\Benchmark_Testing\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Packages\\packages-lock.json",
+    "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
+=======
     "projectPath": "E:/documents/hell/GameDev/finalGameproj/2.5D_Bullet_Hell/IMmune Bullet Hell/Packages",
     "unityVersion": "6000.0.47f1"
   },
@@ -7,12 +16,17 @@
     "E:\\documents\\hell\\GameDev\\finalGameproj\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Packages\\manifest.json",
     "E:\\documents\\hell\\GameDev\\finalGameproj\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Packages\\packages-lock.json",
     "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
+>>>>>>> main
   ],
   "outputs": {
     "com.unity.2d.sprite@1.0.0": {
       "name": "com.unity.2d.sprite",
       "displayName": "2D Sprite",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Benchmark_Testing\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.2d.sprite@8fd0cfbba1fd",
+=======
       "resolvedPath": "E:\\documents\\hell\\GameDev\\finalGameproj\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.2d.sprite@8fd0cfbba1fd",
+>>>>>>> main
       "fingerprint": "8fd0cfbba1fdfc9bba6c16c06a2db964a3060046",
       "editorCompatibility": "2019.2.0a1",
       "version": "1.0.0",
@@ -22,7 +36,11 @@
     "com.unity.2d.tilemap@1.0.0": {
       "name": "com.unity.2d.tilemap",
       "displayName": "2D Tilemap Editor",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Benchmark_Testing\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.2d.tilemap@bcd28ed819cb",
+=======
       "resolvedPath": "E:\\documents\\hell\\GameDev\\finalGameproj\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.2d.tilemap@bcd28ed819cb",
+>>>>>>> main
       "fingerprint": "bcd28ed819cbfe11f1b0e5ae917e2e347f954509",
       "editorCompatibility": "2019.2.0a1",
       "version": "1.0.0",
@@ -32,7 +50,7 @@
     "com.unity.ads@4.4.2": {
       "name": "com.unity.ads",
       "displayName": "Advertisement Legacy",
-      "resolvedPath": "E:\\documents\\hell\\GameDev\\finalGameproj\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.ads@a7b997f68a1d",
+      "resolvedPath": "C:\\Benchmark_Testing\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.ads@a7b997f68a1d",
       "fingerprint": "a7b997f68a1d40387ca4d33fc75578709c140a37",
       "editorCompatibility": "2018.4.18f1",
       "version": "4.4.2",
@@ -42,7 +60,11 @@
     "com.unity.ai.navigation@2.0.7": {
       "name": "com.unity.ai.navigation",
       "displayName": "AI Navigation",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Benchmark_Testing\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.ai.navigation@39ae74efb85f",
+=======
       "resolvedPath": "E:\\documents\\hell\\GameDev\\finalGameproj\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.ai.navigation@39ae74efb85f",
+>>>>>>> main
       "fingerprint": "39ae74efb85f9b44dc389774fc59c2ce4a8aa3b6",
       "editorCompatibility": "6000.0.0a1",
       "version": "2.0.7",
@@ -52,7 +74,7 @@
     "com.unity.analytics@3.8.1": {
       "name": "com.unity.analytics",
       "displayName": "Analytics Library",
-      "resolvedPath": "E:\\documents\\hell\\GameDev\\finalGameproj\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.analytics@6cc66d58ac08",
+      "resolvedPath": "C:\\Benchmark_Testing\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.analytics@6cc66d58ac08",
       "fingerprint": "6cc66d58ac08950316d3b86a26c92187aca1ddb0",
       "editorCompatibility": "2019.3.0a1",
       "version": "3.8.1",
@@ -62,7 +84,7 @@
     "com.unity.collab-proxy@2.7.1": {
       "name": "com.unity.collab-proxy",
       "displayName": "Version Control",
-      "resolvedPath": "E:\\documents\\hell\\GameDev\\finalGameproj\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.collab-proxy@50ac96531b63",
+      "resolvedPath": "C:\\Benchmark_Testing\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.collab-proxy@50ac96531b63",
       "fingerprint": "50ac96531b6358586ccfdf8cc845939bf50d9fab",
       "editorCompatibility": "2021.3.0f1",
       "version": "2.7.1",
@@ -72,7 +94,11 @@
     "com.unity.ide.rider@3.0.35": {
       "name": "com.unity.ide.rider",
       "displayName": "JetBrains Rider Editor",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Benchmark_Testing\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.ide.rider@7d01a2258732",
+=======
       "resolvedPath": "E:\\documents\\hell\\GameDev\\finalGameproj\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.ide.rider@7d01a2258732",
+>>>>>>> main
       "fingerprint": "7d01a2258732f17d1f569657792eaba45b9633d4",
       "editorCompatibility": "2019.4.6f1",
       "version": "3.0.35",
@@ -82,7 +108,11 @@
     "com.unity.ide.visualstudio@2.0.23": {
       "name": "com.unity.ide.visualstudio",
       "displayName": "Visual Studio Editor",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Benchmark_Testing\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.ide.visualstudio@198cdf337d13",
+=======
       "resolvedPath": "E:\\documents\\hell\\GameDev\\finalGameproj\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.ide.visualstudio@198cdf337d13",
+>>>>>>> main
       "fingerprint": "198cdf337d13c83ca953581515630d66b779e92b",
       "editorCompatibility": "2019.4.25f1",
       "version": "2.0.23",
@@ -92,7 +122,11 @@
     "com.unity.inputsystem@1.14.0": {
       "name": "com.unity.inputsystem",
       "displayName": "Input System",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Benchmark_Testing\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.inputsystem@7fe8299111a7",
+=======
       "resolvedPath": "E:\\documents\\hell\\GameDev\\finalGameproj\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.inputsystem@7fe8299111a7",
+>>>>>>> main
       "fingerprint": "7fe8299111a78212d8968229ab41a82e4991ba25",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.14.0",
@@ -102,7 +136,7 @@
     "com.unity.multiplayer.center@1.0.0": {
       "name": "com.unity.multiplayer.center",
       "displayName": "Multiplayer Center",
-      "resolvedPath": "E:\\documents\\hell\\GameDev\\finalGameproj\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.multiplayer.center@f3fb577b3546",
+      "resolvedPath": "C:\\Benchmark_Testing\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.multiplayer.center@f3fb577b3546",
       "fingerprint": "f3fb577b3546594b97b8cc34307cd621f60f1c73",
       "editorCompatibility": "6000.0.0a1",
       "version": "1.0.0",
@@ -112,7 +146,7 @@
     "com.unity.purchasing@4.12.2": {
       "name": "com.unity.purchasing",
       "displayName": "In App Purchasing",
-      "resolvedPath": "E:\\documents\\hell\\GameDev\\finalGameproj\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.purchasing@649c6c7b3b1b",
+      "resolvedPath": "C:\\Benchmark_Testing\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.purchasing@649c6c7b3b1b",
       "fingerprint": "649c6c7b3b1b6277839041f4987c0a1e66176678",
       "editorCompatibility": "2020.3.0a1",
       "version": "4.12.2",
@@ -122,7 +156,11 @@
     "com.unity.test-framework@1.5.1": {
       "name": "com.unity.test-framework",
       "displayName": "Test Framework",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Benchmark_Testing\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.test-framework@388540dd9ce6",
+=======
       "resolvedPath": "E:\\documents\\hell\\GameDev\\finalGameproj\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.test-framework@388540dd9ce6",
+>>>>>>> main
       "fingerprint": "388540dd9ce60b7f4463a23bfdf0d2dafa9a6f3e",
       "editorCompatibility": "2022.3.0a1",
       "version": "1.5.1",
@@ -132,17 +170,31 @@
     "com.unity.timeline@1.8.7": {
       "name": "com.unity.timeline",
       "displayName": "Timeline",
-      "resolvedPath": "E:\\documents\\hell\\GameDev\\finalGameproj\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.timeline@c58b4ee65782",
+      "resolvedPath": "C:\\Benchmark_Testing\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.timeline@c58b4ee65782",
       "fingerprint": "c58b4ee65782ad38338e29f7ee67787cb6998f04",
       "editorCompatibility": "2019.3.0a1",
       "version": "1.8.7",
       "source": "registry",
       "testable": false
     },
+    "com.unity.toolchain.win-x86_64-linux-x86_64@2.0.10": {
+      "name": "com.unity.toolchain.win-x86_64-linux-x86_64",
+      "displayName": "Toolchain Win Linux x64",
+      "resolvedPath": "C:\\Benchmark_Testing\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.toolchain.win-x86_64-linux-x86_64@426618737602",
+      "fingerprint": "426618737602d0ff76e85db678b73b56aa2e891a",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "2.0.10",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.ugui@2.0.0": {
       "name": "com.unity.ugui",
       "displayName": "Unity UI",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Benchmark_Testing\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.ugui@f3fac7af1578",
+=======
       "resolvedPath": "E:\\documents\\hell\\GameDev\\finalGameproj\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.ugui@f3fac7af1578",
+>>>>>>> main
       "fingerprint": "f3fac7af157843ea3b769ef7c6aa56de52618aeb",
       "editorCompatibility": "2019.2.0a1",
       "version": "2.0.0",
@@ -152,7 +204,7 @@
     "com.unity.xr.legacyinputhelpers@2.1.12": {
       "name": "com.unity.xr.legacyinputhelpers",
       "displayName": "XR Legacy Input Helpers",
-      "resolvedPath": "E:\\documents\\hell\\GameDev\\finalGameproj\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.xr.legacyinputhelpers@b7579e86f3b4",
+      "resolvedPath": "C:\\Benchmark_Testing\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.xr.legacyinputhelpers@b7579e86f3b4",
       "fingerprint": "b7579e86f3b456c909fda6b875fba7ab1eeb1322",
       "editorCompatibility": "2019.4.0a1",
       "version": "2.1.12",
@@ -162,7 +214,11 @@
     "com.unity.modules.accessibility@1.0.0": {
       "name": "com.unity.modules.accessibility",
       "displayName": "Accessibility",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.accessibility",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.accessibility",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -170,7 +226,11 @@
     "com.unity.modules.ai@1.0.0": {
       "name": "com.unity.modules.ai",
       "displayName": "AI",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.ai",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.ai",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -178,7 +238,11 @@
     "com.unity.modules.androidjni@1.0.0": {
       "name": "com.unity.modules.androidjni",
       "displayName": "Android JNI",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.androidjni",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.androidjni",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -186,7 +250,11 @@
     "com.unity.modules.animation@1.0.0": {
       "name": "com.unity.modules.animation",
       "displayName": "Animation",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.animation",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.animation",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -194,7 +262,11 @@
     "com.unity.modules.assetbundle@1.0.0": {
       "name": "com.unity.modules.assetbundle",
       "displayName": "Asset Bundle",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.assetbundle",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.assetbundle",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -202,7 +274,11 @@
     "com.unity.modules.audio@1.0.0": {
       "name": "com.unity.modules.audio",
       "displayName": "Audio",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.audio",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.audio",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -210,7 +286,11 @@
     "com.unity.modules.cloth@1.0.0": {
       "name": "com.unity.modules.cloth",
       "displayName": "Cloth",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.cloth",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.cloth",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -218,7 +298,11 @@
     "com.unity.modules.director@1.0.0": {
       "name": "com.unity.modules.director",
       "displayName": "Director",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.director",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.director",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -226,7 +310,11 @@
     "com.unity.modules.imageconversion@1.0.0": {
       "name": "com.unity.modules.imageconversion",
       "displayName": "Image Conversion",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.imageconversion",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.imageconversion",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -234,7 +322,11 @@
     "com.unity.modules.imgui@1.0.0": {
       "name": "com.unity.modules.imgui",
       "displayName": "IMGUI",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.imgui",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.imgui",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -242,7 +334,11 @@
     "com.unity.modules.jsonserialize@1.0.0": {
       "name": "com.unity.modules.jsonserialize",
       "displayName": "JSONSerialize",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.jsonserialize",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.jsonserialize",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -250,7 +346,11 @@
     "com.unity.modules.particlesystem@1.0.0": {
       "name": "com.unity.modules.particlesystem",
       "displayName": "Particle System",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.particlesystem",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.particlesystem",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -258,7 +358,11 @@
     "com.unity.modules.physics@1.0.0": {
       "name": "com.unity.modules.physics",
       "displayName": "Physics",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.physics",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.physics",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -266,7 +370,11 @@
     "com.unity.modules.physics2d@1.0.0": {
       "name": "com.unity.modules.physics2d",
       "displayName": "Physics 2D",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.physics2d",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.physics2d",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -274,7 +382,11 @@
     "com.unity.modules.screencapture@1.0.0": {
       "name": "com.unity.modules.screencapture",
       "displayName": "Screen Capture",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.screencapture",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.screencapture",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -282,7 +394,11 @@
     "com.unity.modules.terrain@1.0.0": {
       "name": "com.unity.modules.terrain",
       "displayName": "Terrain",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.terrain",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.terrain",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -290,7 +406,11 @@
     "com.unity.modules.terrainphysics@1.0.0": {
       "name": "com.unity.modules.terrainphysics",
       "displayName": "Terrain Physics",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.terrainphysics",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.terrainphysics",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -298,7 +418,11 @@
     "com.unity.modules.tilemap@1.0.0": {
       "name": "com.unity.modules.tilemap",
       "displayName": "Tilemap",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.tilemap",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.tilemap",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -306,7 +430,11 @@
     "com.unity.modules.ui@1.0.0": {
       "name": "com.unity.modules.ui",
       "displayName": "UI",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.ui",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.ui",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -314,7 +442,11 @@
     "com.unity.modules.uielements@1.0.0": {
       "name": "com.unity.modules.uielements",
       "displayName": "UIElements",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.uielements",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.uielements",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -322,7 +454,11 @@
     "com.unity.modules.umbra@1.0.0": {
       "name": "com.unity.modules.umbra",
       "displayName": "Umbra",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.umbra",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.umbra",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -330,7 +466,11 @@
     "com.unity.modules.unityanalytics@1.0.0": {
       "name": "com.unity.modules.unityanalytics",
       "displayName": "Unity Analytics",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unityanalytics",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unityanalytics",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -338,7 +478,11 @@
     "com.unity.modules.unitywebrequest@1.0.0": {
       "name": "com.unity.modules.unitywebrequest",
       "displayName": "Unity Web Request",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequest",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequest",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -346,7 +490,11 @@
     "com.unity.modules.unitywebrequestassetbundle@1.0.0": {
       "name": "com.unity.modules.unitywebrequestassetbundle",
       "displayName": "Unity Web Request Asset Bundle",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestassetbundle",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestassetbundle",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -354,7 +502,11 @@
     "com.unity.modules.unitywebrequestaudio@1.0.0": {
       "name": "com.unity.modules.unitywebrequestaudio",
       "displayName": "Unity Web Request Audio",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestaudio",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestaudio",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -362,7 +514,11 @@
     "com.unity.modules.unitywebrequesttexture@1.0.0": {
       "name": "com.unity.modules.unitywebrequesttexture",
       "displayName": "Unity Web Request Texture",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequesttexture",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequesttexture",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -370,7 +526,11 @@
     "com.unity.modules.unitywebrequestwww@1.0.0": {
       "name": "com.unity.modules.unitywebrequestwww",
       "displayName": "Unity Web Request WWW",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestwww",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.unitywebrequestwww",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -378,7 +538,11 @@
     "com.unity.modules.vehicles@1.0.0": {
       "name": "com.unity.modules.vehicles",
       "displayName": "Vehicles",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vehicles",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vehicles",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -386,7 +550,11 @@
     "com.unity.modules.video@1.0.0": {
       "name": "com.unity.modules.video",
       "displayName": "Video",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.video",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.video",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -394,7 +562,11 @@
     "com.unity.modules.vr@1.0.0": {
       "name": "com.unity.modules.vr",
       "displayName": "VR",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vr",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.vr",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -402,7 +574,11 @@
     "com.unity.modules.wind@1.0.0": {
       "name": "com.unity.modules.wind",
       "displayName": "Wind",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.wind",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.wind",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -410,7 +586,11 @@
     "com.unity.modules.xr@1.0.0": {
       "name": "com.unity.modules.xr",
       "displayName": "XR",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.xr",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.xr",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -418,7 +598,11 @@
     "com.unity.modules.subsystems@1.0.0": {
       "name": "com.unity.modules.subsystems",
       "displayName": "Subsystems",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.subsystems",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.subsystems",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
       "testable": false
@@ -426,15 +610,43 @@
     "com.unity.modules.hierarchycore@1.0.0": {
       "name": "com.unity.modules.hierarchycore",
       "displayName": "Hierarchy Core",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.hierarchycore",
+=======
       "resolvedPath": "F:\\apps and programs\\Unity Editor\\6000.0.47f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\com.unity.modules.hierarchycore",
+>>>>>>> main
       "version": "1.0.0",
       "source": "builtin",
+      "testable": false
+    },
+    "com.unity.sysroot@2.0.10": {
+      "name": "com.unity.sysroot",
+      "displayName": "Sysroot Base",
+      "resolvedPath": "C:\\Benchmark_Testing\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.sysroot@7bbbb9339c14",
+      "fingerprint": "7bbbb9339c143f6fbccaeb0a52c77b9217b35a71",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "2.0.10",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.sysroot.linux-x86_64@2.0.9": {
+      "name": "com.unity.sysroot.linux-x86_64",
+      "displayName": "Sysroot Linux x64",
+      "resolvedPath": "C:\\Benchmark_Testing\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.sysroot.linux-x86_64@1998d1c7730e",
+      "fingerprint": "1998d1c7730e48fa49f28d983fececfc9cbd970b",
+      "editorCompatibility": "2019.4.0a1",
+      "version": "2.0.9",
+      "source": "registry",
       "testable": false
     },
     "com.unity.ext.nunit@2.0.5": {
       "name": "com.unity.ext.nunit",
       "displayName": "Custom NUnit",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Benchmark_Testing\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.ext.nunit@031a54704bff",
+=======
       "resolvedPath": "E:\\documents\\hell\\GameDev\\finalGameproj\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.ext.nunit@031a54704bff",
+>>>>>>> main
       "fingerprint": "031a54704bffe39e6a0324909f8eaa4565bdebf2",
       "editorCompatibility": "2019.4.0a1",
       "version": "2.0.5",
@@ -444,7 +656,7 @@
     "com.unity.services.core@1.14.0": {
       "name": "com.unity.services.core",
       "displayName": "Services Core",
-      "resolvedPath": "E:\\documents\\hell\\GameDev\\finalGameproj\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.services.core@9e81a5e38245",
+      "resolvedPath": "C:\\Benchmark_Testing\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.services.core@9e81a5e38245",
       "fingerprint": "9e81a5e382457b799480b311ce51187be99abbbf",
       "editorCompatibility": "2021.3.0a1",
       "version": "1.14.0",
@@ -454,7 +666,11 @@
     "com.unity.services.analytics@6.0.3": {
       "name": "com.unity.services.analytics",
       "displayName": "Analytics",
+<<<<<<< HEAD
+      "resolvedPath": "C:\\Benchmark_Testing\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.services.analytics@3692623288ba",
+=======
       "resolvedPath": "E:\\documents\\hell\\GameDev\\finalGameproj\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.services.analytics@3692623288ba",
+>>>>>>> main
       "fingerprint": "3692623288ba229ed0f5eb57c112f2723e2f03cf",
       "editorCompatibility": "2021.3.0a1",
       "version": "6.0.3",
@@ -464,7 +680,7 @@
     "com.unity.nuget.newtonsoft-json@3.2.1": {
       "name": "com.unity.nuget.newtonsoft-json",
       "displayName": "Newtonsoft Json",
-      "resolvedPath": "E:\\documents\\hell\\GameDev\\finalGameproj\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@74deb55db2a0",
+      "resolvedPath": "C:\\Benchmark_Testing\\2.5D_Bullet_Hell\\IMmune Bullet Hell\\Library\\PackageCache\\com.unity.nuget.newtonsoft-json@74deb55db2a0",
       "fingerprint": "74deb55db2a0c29ddfda576608bcb86abbd13ee6",
       "editorCompatibility": "2018.4.0a1",
       "version": "3.2.1",

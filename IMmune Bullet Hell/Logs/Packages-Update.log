@@ -52,7 +52,11 @@ The following packages were added:
   com.unity.modules.accessibility@1.0.0
   com.unity.multiplayer.center@1.0.0
 
+<<<<<<< HEAD
+=== Tue Apr 22 21:31:24 2025
+=======
 === Sat Apr 26 17:49:41 2025
+>>>>>>> main
 
 Packages were changed.
 Update Mode: updateDependencies
