@@ -5,21 +5,36 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 638810383429270574
     m_Hash: 1336282864
+=======
+      ticks: 638813117811239590
+    m_Hash: 1389947552
+>>>>>>> main
   m_LockFileStatus:
     m_FilePath: C:/Benchmark_Testing/2.5D_Bullet_Hell/IMmune Bullet Hell/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
+<<<<<<< HEAD
       ticks: 638810383429280580
     m_Hash: 1874893585
+=======
+      ticks: 638813117953771410
+    m_Hash: 164591053
+>>>>>>> main
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
+<<<<<<< HEAD
 m_ProjectPath: C:/Benchmark_Testing/2.5D_Bullet_Hell/IMmune Bullet Hell/Packages
+=======
+m_ProjectPath: E:/documents/hell/GameDev/finalGameproj/2.5D_Bullet_Hell/IMmune Bullet
+  Hell/Packages
+>>>>>>> main
 m_EditorVersion: 6000.0.47f1 (2ad1ed33fd3b)
 m_ResolvedPackages:
 - packageId: com.unity.2d.sprite@1.0.0
@@ -27,7 +42,12 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Benchmark_Testing\2.5D_Bullet_Hell\IMmune Bullet Hell\Library\PackageCache\com.unity.2d.sprite@8fd0cfbba1fd
+=======
+  resolvedPath: E:\documents\hell\GameDev\finalGameproj\2.5D_Bullet_Hell\IMmune Bullet
+    Hell\Library\PackageCache\com.unity.2d.sprite@8fd0cfbba1fd
+>>>>>>> main
   assetPath: Packages/com.unity.2d.sprite
   name: com.unity.2d.sprite
   displayName: 2D Sprite
@@ -97,7 +117,12 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Benchmark_Testing\2.5D_Bullet_Hell\IMmune Bullet Hell\Library\PackageCache\com.unity.2d.tilemap@bcd28ed819cb
+=======
+  resolvedPath: E:\documents\hell\GameDev\finalGameproj\2.5D_Bullet_Hell\IMmune Bullet
+    Hell\Library\PackageCache\com.unity.2d.tilemap@bcd28ed819cb
+>>>>>>> main
   assetPath: Packages/com.unity.2d.tilemap
   name: com.unity.2d.tilemap
   displayName: 2D Tilemap Editor
@@ -317,7 +342,12 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.7
   source: 1
+<<<<<<< HEAD
   resolvedPath: C:\Benchmark_Testing\2.5D_Bullet_Hell\IMmune Bullet Hell\Library\PackageCache\com.unity.ai.navigation@39ae74efb85f
+=======
+  resolvedPath: E:\documents\hell\GameDev\finalGameproj\2.5D_Bullet_Hell\IMmune Bullet
+    Hell\Library\PackageCache\com.unity.ai.navigation@39ae74efb85f
+>>>>>>> main
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -740,7 +770,12 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.35
   source: 1
+<<<<<<< HEAD
   resolvedPath: C:\Benchmark_Testing\2.5D_Bullet_Hell\IMmune Bullet Hell\Library\PackageCache\com.unity.ide.rider@7d01a2258732
+=======
+  resolvedPath: E:\documents\hell\GameDev\finalGameproj\2.5D_Bullet_Hell\IMmune Bullet
+    Hell\Library\PackageCache\com.unity.ide.rider@7d01a2258732
+>>>>>>> main
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -862,7 +897,12 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.23
   source: 1
+<<<<<<< HEAD
   resolvedPath: C:\Benchmark_Testing\2.5D_Bullet_Hell\IMmune Bullet Hell\Library\PackageCache\com.unity.ide.visualstudio@198cdf337d13
+=======
+  resolvedPath: E:\documents\hell\GameDev\finalGameproj\2.5D_Bullet_Hell\IMmune Bullet
+    Hell\Library\PackageCache\com.unity.ide.visualstudio@198cdf337d13
+>>>>>>> main
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -968,7 +1008,12 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.14.0
   source: 1
+<<<<<<< HEAD
   resolvedPath: C:\Benchmark_Testing\2.5D_Bullet_Hell\IMmune Bullet Hell\Library\PackageCache\com.unity.inputsystem@7fe8299111a7
+=======
+  resolvedPath: E:\documents\hell\GameDev\finalGameproj\2.5D_Bullet_Hell\IMmune Bullet
+    Hell\Library\PackageCache\com.unity.inputsystem@7fe8299111a7
+>>>>>>> main
   assetPath: Packages/com.unity.inputsystem
   name: com.unity.inputsystem
   displayName: Input System
@@ -1396,7 +1441,12 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.5.1
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Benchmark_Testing\2.5D_Bullet_Hell\IMmune Bullet Hell\Library\PackageCache\com.unity.test-framework@388540dd9ce6
+=======
+  resolvedPath: E:\documents\hell\GameDev\finalGameproj\2.5D_Bullet_Hell\IMmune Bullet
+    Hell\Library\PackageCache\com.unity.test-framework@388540dd9ce6
+>>>>>>> main
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -1825,7 +1875,12 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Benchmark_Testing\2.5D_Bullet_Hell\IMmune Bullet Hell\Library\PackageCache\com.unity.ugui@f3fac7af1578
+=======
+  resolvedPath: E:\documents\hell\GameDev\finalGameproj\2.5D_Bullet_Hell\IMmune Bullet
+    Hell\Library\PackageCache\com.unity.ugui@f3fac7af1578
+>>>>>>> main
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -2035,7 +2090,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.accessibility
+>>>>>>> main
   assetPath: Packages/com.unity.modules.accessibility
   name: com.unity.modules.accessibility
   displayName: Accessibility
@@ -2102,7 +2161,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ai
+>>>>>>> main
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -2169,7 +2232,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.androidjni
+>>>>>>> main
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -2235,7 +2302,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.animation
+>>>>>>> main
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -2302,7 +2373,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.assetbundle
+>>>>>>> main
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -2369,7 +2444,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.audio
+>>>>>>> main
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -2436,7 +2515,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.cloth
+>>>>>>> main
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -2507,7 +2590,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.director
+>>>>>>> main
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -2582,7 +2669,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imageconversion
+>>>>>>> main
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -2649,7 +2740,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.imgui
+>>>>>>> main
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -2716,7 +2811,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.jsonserialize
+>>>>>>> main
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -2783,7 +2882,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.particlesystem
+>>>>>>> main
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -2850,7 +2953,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics
+>>>>>>> main
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -2917,7 +3024,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.physics2d
+>>>>>>> main
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -2984,7 +3095,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.screencapture
+>>>>>>> main
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -3055,7 +3170,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrain
+>>>>>>> main
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -3122,7 +3241,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.terrainphysics
+>>>>>>> main
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -3197,7 +3320,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.tilemap
+>>>>>>> main
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -3267,7 +3394,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.ui
+>>>>>>> main
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -3334,7 +3465,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.uielements
+>>>>>>> main
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -3417,7 +3552,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.umbra
+>>>>>>> main
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -3484,7 +3623,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unityanalytics
+>>>>>>> main
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -3558,7 +3701,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequest
+>>>>>>> main
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -3625,7 +3772,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestassetbundle
+>>>>>>> main
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -3700,7 +3851,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestaudio
+>>>>>>> main
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -3775,7 +3930,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequesttexture
+>>>>>>> main
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -3850,7 +4009,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.unitywebrequestwww
+>>>>>>> main
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -3941,7 +4104,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vehicles
+>>>>>>> main
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -4012,7 +4179,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.video
+>>>>>>> main
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -4091,7 +4262,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.vr
+>>>>>>> main
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -4172,7 +4347,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.wind
+>>>>>>> main
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -4239,7 +4418,11 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.xr
+>>>>>>> main
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -4318,7 +4501,11 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.subsystems
+>>>>>>> main
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -4389,7 +4576,11 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Program Files\Unity\Hub\Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore
+=======
+  resolvedPath: F:\apps and programs\Unity Editor\6000.0.47f1\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.modules.hierarchycore
+>>>>>>> main
   assetPath: Packages/com.unity.modules.hierarchycore
   name: com.unity.modules.hierarchycore
   displayName: Hierarchy Core
@@ -4637,7 +4828,12 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 2.0.5
   source: 2
+<<<<<<< HEAD
   resolvedPath: C:\Benchmark_Testing\2.5D_Bullet_Hell\IMmune Bullet Hell\Library\PackageCache\com.unity.ext.nunit@031a54704bff
+=======
+  resolvedPath: E:\documents\hell\GameDev\finalGameproj\2.5D_Bullet_Hell\IMmune Bullet
+    Hell\Library\PackageCache\com.unity.ext.nunit@031a54704bff
+>>>>>>> main
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -4834,7 +5030,12 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 6.0.3
   source: 1
+<<<<<<< HEAD
   resolvedPath: C:\Benchmark_Testing\2.5D_Bullet_Hell\IMmune Bullet Hell\Library\PackageCache\com.unity.services.analytics@3692623288ba
+=======
+  resolvedPath: E:\documents\hell\GameDev\finalGameproj\2.5D_Bullet_Hell\IMmune Bullet
+    Hell\Library\PackageCache\com.unity.services.analytics@3692623288ba
+>>>>>>> main
   assetPath: Packages/com.unity.services.analytics
   name: com.unity.services.analytics
   displayName: Analytics
