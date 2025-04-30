@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -8,28 +8,76 @@ public class Boundary1
     public float xMin, xMax, zMin, zMax;
 }
 
-public class Player : MonoBehaviour 
+public class Player : MonoBehaviour
 {
+
+    public GameObject shieldPrefab; // assign in inspector
+    private GameObject activeShield; // internal reference
     public float speed;
 
     private Rigidbody rb;
 
     public Boundary1 boundary;
 
-    public GameObject Shot; 
+    public GameObject Shot;
     public Transform BulletSpawn;
 
     public Transform MultiShot;
 
-  
+    
 
-    public Transform Shield;
+    bool hasShield = false;
+
+    bool multishotBool = false;
+
+    private float originalFireRate;
+
+    
 
     public InputAction fire;
 
     public float fireRate;
 
     private float nextFire;
+
+    public void ActivateShield()
+        {
+        if (activeShield != null) return; // prevent stacking
+
+        hasShield = true;
+
+        activeShield = Instantiate(shieldPrefab, transform.position, Quaternion.identity);
+        activeShield.transform.SetParent(transform); // attach to player
+        activeShield.transform.localPosition = Vector3.zero; // center on player
+
+        Debug.Log("Shield activated!");
+        }
+    void OnDestroy()
+    {
+        Player player = GetComponentInParent<Player>();
+        if (player != null)
+        {
+            player.hasShield = false;
+        }
+    }
+
+    public void ModifyFireRate(float multiplier, float duration)
+    {
+        originalFireRate = fireRate;
+        fireRate *= multiplier;
+        multishotBool = true;
+        Debug.Log("Fire rate increased!");
+        StartCoroutine(ResetFireRate(duration));
+    }
+
+    IEnumerator ResetFireRate(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        fireRate = originalFireRate;
+        multishotBool = false;
+        Debug.Log("Fire rate reset.");
+    }
+
 
     private void Start(){
         rb = GetComponent<Rigidbody>();
@@ -42,9 +90,11 @@ public class Player : MonoBehaviour
         {
             nextFire = Time.time + fireRate;
             Instantiate(Shot, BulletSpawn.position, BulletSpawn.rotation); 
-            foreach (Transform shotPoint in MultiShot)
-            {
-                Instantiate(Shot, shotPoint.position, shotPoint.rotation);
+            if(multishotBool == true){
+                foreach (Transform shotPoint in MultiShot)
+                {
+                    Instantiate(Shot, shotPoint.position, shotPoint.rotation);
+                }
             }
         }
 
@@ -71,4 +121,5 @@ public class Player : MonoBehaviour
         
             
 	}
-}
+    }
+
