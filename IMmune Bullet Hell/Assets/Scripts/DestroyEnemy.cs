@@ -1,19 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 
 public class DestroyEnemy : MonoBehaviour
 {
     public int scoreValue = 5;
     public int attackDamage = 1;
 
-    
     public GameObject hitSparksPrefab;
-
-    private ScoreManager scoreManager;
-
-    
 
     void OnTriggerEnter(Collider other)
     {
@@ -24,8 +18,7 @@ public class DestroyEnemy : MonoBehaviour
         if (enemyHealth != null)
         {
             enemyHealth.TakeDamage(attackDamage);
-            
-            FindObjectOfType<ScoreManager>().AddScore(scoreValue);
+            ScoreManager.score += scoreValue;
             Instantiate(hitSparksPrefab, transform.position, Quaternion.identity);
             Destroy(gameObject); // Destroy bullet
         }

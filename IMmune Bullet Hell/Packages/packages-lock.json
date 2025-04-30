@@ -133,7 +133,6 @@
       },
       "url": "https://packages.unity.com"
     },
-<<<<<<< HEAD
     "com.unity.sysroot": {
       "version": "2.0.10",
       "depth": 1,
@@ -150,8 +149,6 @@
       },
       "url": "https://packages.unity.com"
     },
-=======
->>>>>>> main
     "com.unity.test-framework": {
       "version": "1.5.1",
       "depth": 0,

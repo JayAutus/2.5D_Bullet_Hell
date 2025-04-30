@@ -2,35 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
-    
-    
+
 public class ScoreManager : MonoBehaviour
 {
     public static int score;
-        
-    public TextMeshProUGUI scoreText;   // Drag your ScoreText here
 
-    
-    
-    private int currentScore = 0;
+    Text text;
 
-    void Start()
+
+    void Awake()
     {
-        UpdateScoreText();
+        text = GetComponent <Text> ();
+
+        score = 0;
     }
 
-    
-    public void AddScore(int score)
-    {
-        currentScore += score;
-        UpdateScoreText();
-    }
 
-    
-
-    void UpdateScoreText()
+    void Update()
     {
-        scoreText.text = "Score: " + currentScore;
+        text.text = "Score: " + score;
     }
 }

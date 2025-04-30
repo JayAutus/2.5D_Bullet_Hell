@@ -9,17 +9,9 @@ public class PlayerHealthTest : MonoBehaviour
     public int currentHealth;
     public Slider healthSlider;
 
-<<<<<<< HEAD
     public Player player; // Link to the Player script
 
     void Awake()
-=======
-    public GameObject ExplosionPrefab;
-
-    public GameObject Hitsparks;
-
-    void Awake ()
->>>>>>> main
     {
         currentHealth = startingHealth;
         player = GetComponent<Player>(); // or assign via Inspector if needed
@@ -44,30 +36,10 @@ public class PlayerHealthTest : MonoBehaviour
 
         currentHealth -= amount;
         healthSlider.value = currentHealth;
-<<<<<<< HEAD
 
         if (currentHealth <= 0)
-=======
-        Instantiate(Hitsparks, transform.position, Quaternion.identity);
-        if(currentHealth <= 0)
->>>>>>> main
         {
-            Die();
+            Destroy(gameObject);
         }
     }
-<<<<<<< HEAD
 }
-=======
-        void Die()
-    {
-        if (ExplosionPrefab != null)
-        {
-            Instantiate(ExplosionPrefab, transform.position, Quaternion.identity);
-        }
-
-        Destroy(gameObject);
-    }
-    
- }
-    
->>>>>>> main
